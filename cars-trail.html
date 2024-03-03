@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Car Enthusiast Website</title>
+	<style>
+		body {
+			background: url('https://source.unsplash.com/1920x1080/?car,racing,classic') no-repeat center center fixed;
+			background-size: cover;
+			font-family: Arial, sans-serif;
+		}
+		.container {
+			width: 80%;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: rgba(255, 255, 255, 0.8);
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+		}
+		.car-image {
+			width: 100%;
+			height: auto;
+		}
+		h1 {
+			color: #005a9c;
+		}
+		h2 {
+			color: #333;
+		}
+		.login-register-form {
+			display: none;
+			background-color: #fff;
+			padding: 20px;
+			border: 1px solid #ddd;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+			margin-top: 20px;
+		}
+		.login-register-form label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		.login-register-form input[type="text"],
+		.login-register-form input[type="password"] {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 1px solid #ddd;
+			border-radius: 5px;
+			box-sizing: border-box;
+		}
+		.login-register-form button {
+			background-color: #005a9c;
+			color: #fff;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			width: 100%;
+		}
+		.login-register-form button:hover {
+			background-color: #003d73;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Welcome to Our Car Enthusiast Website!</h1>
+		<h2 id="porsche">Check out this beautiful Porsche 911:</h2>
+		<img class="car-image" src="https://source.unsplash.com/1600x900/?porsche,911" alt="Porsche 911">
+		<h2 id="jdm">And here are some amazing JDM cars:</h2>
+		<img class="car-image" src="https://source.unsplash.com/1600x900/?jdm,car" alt="JDM Cars">
+		<h2 id="muscle">Finally, here are some classic American muscle cars:</h2>
+		<img class="car-image" src="https://source.unsplash.com/1600x900/?muscle,car" alt="American Muscle Cars">
+		<button id="login-button">Login</button>
+		<button id="register-button">
